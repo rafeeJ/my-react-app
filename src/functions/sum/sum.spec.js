@@ -1,7 +1,7 @@
 const sum = require('./sum')
 
 test('should add two numbers together', () => { 
-    expect(sum(1, 2)).toBe(3) 
+    expect(sum(1, 2)).toBe(4) 
 })
 
 test('result should be undefined witht two strings', () => { 
